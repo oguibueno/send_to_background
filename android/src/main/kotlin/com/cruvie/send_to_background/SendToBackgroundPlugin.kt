@@ -43,7 +43,7 @@ class SendToBackgroundPlugin : FlutterPlugin, MethodCallHandler,ActivityAware {
   override fun onDetachedFromActivityForConfigChanges() {
   }
 
-  override fun onReattachedToActivityForConfigChanges(p0: ActivityPluginBinding) {
+  override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
     activity = binding.activity
   }
 }
