@@ -41,10 +41,9 @@ class SendToBackgroundPlugin : FlutterPlugin, MethodCallHandler,ActivityAware {
   override fun onDetachedFromActivity() {}
 
   override fun onDetachedFromActivityForConfigChanges() {
-    TODO("Not yet implemented")
   }
 
   override fun onReattachedToActivityForConfigChanges(p0: ActivityPluginBinding) {
-    TODO("Not yet implemented")
+    activity = binding.activity
   }
 }
