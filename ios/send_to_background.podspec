@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'send_to_background'
-  s.version          = '0.0.1'
+  s.version          = '0.0.5'
   s.summary          = 'A new Flutter project.'
   s.description      = <<-DESC
 A new Flutter project.
