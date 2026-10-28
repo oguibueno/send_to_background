@@ -20,3 +20,7 @@
 * ext.kotlin_version = '2.0.21'
 * compileSdk = 34
 * minSdk = 21
+
+## 0.0.5+android-patch.spm
+
+* iOS: Swift Package Manager support (`ios/send_to_background/Package.swift`); the podspec points at the moved sources, minimum iOS 12
